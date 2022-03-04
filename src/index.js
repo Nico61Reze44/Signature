@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import testComp from './component/TestCompo1'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <testComp></testComp>
   </React.StrictMode>,
   document.getElementById('root')
 );
